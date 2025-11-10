@@ -115,8 +115,7 @@ public class LetterboxdSyncTask : IScheduledTask
                         _logger.LogWarning(
                             @"DEBUG logging film dateLastLog: '{DateLastLog}' viewingDate: '{ViewingDate}'",
                             dateLastLog,
-                            viewingDate
-                        );
+                            viewingDate);
 
                         if (dateLastLog != null && dateLastLog.Value.Date == viewingDate.Value.Date)
                         {
